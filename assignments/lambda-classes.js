@@ -30,7 +30,7 @@ class Student extends Person {
     super(studentAttributes);
     this.newPreviousBackground= studentAttributes.previousBackground,
     this.newClassName= studentAttributes.className,
-    this.newFavSubjects= studentAttributes.favSubjects,
+    this.newFavSubjects= studentAttributes.favSubjects
   }
   listsSubjects(){
       console.log(`${this.newName}'s favorite subjects are ${this.newFavSubjects}`);
