@@ -30,7 +30,7 @@ class Student extends Person {
     super(studentAttributes);
     this.newPreviousBackground= studentAttributes.previousBackground,
     this.newClassName= studentAttributes.className,
-    this.newFavSubjects= studentAttributes.favSubjects
+    this.newFavSubjects= studentAttributes.favSubjects,
   }
   listsSubjects(){
       console.log(`${this.newName}'s favorite subjects are ${this.newFavSubjects}`);
@@ -104,7 +104,7 @@ const sam = new Student ({
   location: "San Diego",
   previousBackground: "Retail",
   className: "Web22",
-  favSubjects: ['HTML', 'CSS', 'JavaScript']
+  favSubjects: ['HTML', 'CSS', 'JavaScript'],
 });
 console.log(sam);
 sam.speak();
@@ -118,7 +118,7 @@ const kate = new Student ({
   location: "Maine",
   previousBackground: "Nursing",
   className: "Web14",
-  favSubjects: ['CSS', 'Python', 'React']
+  favSubjects: ['CSS', 'Python', 'React'],
 });
 console.log(kate);
 kate.speak();
